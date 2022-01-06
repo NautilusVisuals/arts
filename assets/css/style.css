@@ -838,22 +838,6 @@ html, body {
     margin-bottom: 0;
 }
 
-.hero .breadcrumb:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 45px;
-    height: 12px;
-    width: 80px;
-    border-top: 5px solid #fff;
-    border-bottom: 3px solid #fff;
-    transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-}
 
 .subpage-hero {
     height: 400px;
