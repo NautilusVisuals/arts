@@ -53,7 +53,7 @@
 
 {% else %}
 
-<div id="hero" class="hero overlay subpage-hero {{ page.hero }}-hero">
+<div id="hero" class="hero overlay subpage-hero {{ page.title | downacse | replace: ' ', '-'  }}-hero">
     <div class="hero-content">
         <div class="hero-text">
             <h1>{{ page.title }}</h1>
