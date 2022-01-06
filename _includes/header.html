@@ -1,0 +1,63 @@
+<header id="masthead" class="site-header">
+    <nav id="primary-navigation" class="site-navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+
+                <a class="site-title" href="index.html"><span>Nautilus</span>Visuals</a>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="agency-navbar-collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Work<i class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
+
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li><a href="premade-designs.html">Premades</a></li>
+                          <li><a href="custom-designs.html">Custom Designs</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="character-design.html">Character Design</a></li>
+                    <li><a href="add-ons.html">ADD-ONS</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                    <!--
+                    <li><a href="ui-elements.html">Shop</a></li>
+                    -->
+
+                </ul>
+
+            </div>
+
+        </div>   
+    </nav><!-- /.site-navigation -->
+</header><!-- /#mastheaed -->
+
+
+{% if page.title == "Index" %}
+
+<div id="hero" class="hero overlay">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Nautilus Visuals.</h1>
+            <p>Where amazing stories meet their visualization.</p>
+            <q>Good cover design is not only about beauty... it’s a visual sales pitch. It’s your first contact with a potential reader. Your cover only has around 3 seconds to catch a browsing reader’s attention. You want to stand out and make them pause and consider, and read the synopsis.</q>
+            <p>― Eeva Lancaster</p>
+        </div><!-- /.hero-text -->
+    </div><!-- /.hero-content -->
+</div><!-- /.hero -->
+
+{% else %}
+
+<div id="hero" class="hero overlay subpage-hero {{ page.title | downcase | replace: ' ', '-'  }}-hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>{{ page.title }}</h1>
+        </div><!-- /.hero-text -->
+    </div><!-- /.hero-content -->
+</div><!-- /.hero -->
+
+{% endif %}
