@@ -18,7 +18,7 @@
         {{ site.collections | where: "label", page.collection | first | inspect }}
         <hr/>
         dgd
-        {% if site[page.collection] %}
+        {% if page.collection %}
             {{ ede }}
             {% assign collection = site.collections | where: "label", page.collection | first }}
         
