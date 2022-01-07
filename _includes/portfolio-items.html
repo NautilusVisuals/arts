@@ -11,9 +11,9 @@
         </ul>
         -->
 
-        {% if site.data[page.table] %}
+        {% if site[page.table] %}
             <div id="grid" class="row">
-                {% for i in site.data[page.table] %}
+                {% for i in site[page.table] %}
                     {% assign key = i[0] %}
                     {% assign item = i[1] %}
 
@@ -24,8 +24,8 @@
                                 <h4>{{ item.title }}</h4>
                                 <p>{{ item.description }}</p>
                             </div>
-                            <a href="/workitems/{{ key }}.html">
-                                MORE
+                            <a href="{{ item.url }}">
+                                More
                             </a>
                         </div><!-- /.portfolio-item -->
                     </div>
