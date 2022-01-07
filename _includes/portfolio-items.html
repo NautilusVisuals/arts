@@ -12,7 +12,12 @@
         -->
 
         {{ page | inspect }}
+        <hr/>
         {{ site[page.collection] | inspect }}
+        <hr/>
+        {{ site.collections | where: "label", page.collection | first | inspect }}
+        <hr/>
+        dgd
         {% if site[page.collection] %}
             {{ ede }}
             {% assign collection = site.collections | where: "label", page.collection | first }}
