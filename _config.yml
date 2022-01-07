@@ -6,6 +6,7 @@ collections:
   characters:
     output: true
   customs:
+  addons:
      
 defaults:
   - scope:
