@@ -11,9 +11,9 @@
         </ul>
         -->
 
-        {% if site[page.table] %}
+        {% if site[page.collection] %}
             <div id="grid" class="row">
-                {% for i in site[page.table] %}
+                {% for i in site[page.collection] %}
                     {% assign key = i[0] %}
                     {% assign item = i[1] %}
 
