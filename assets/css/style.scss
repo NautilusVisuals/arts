@@ -923,6 +923,14 @@ html, body {
 			opacity: 1;
 		}
 	}
+	.img-blur {
+		position: absolute;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+		z-index: -1;
+		filter: blur(10px);	
+	}
 	a {
 		bottom: 15px;
 		color: #26272d;
