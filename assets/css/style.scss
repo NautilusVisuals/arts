@@ -1406,11 +1406,20 @@ html, body {
 	height: 500px;
 	width: 100%;
 }
+
+
+
 .svc-info {
 	text-align: center;
 	ul {
 		display: table;
 		margin: 0 auto;
 		text-align: left;
+	}
+}
+
+.section-portfolio-item {
+	.img-res {
+		object-fit: contain;	
 	}
 }
