@@ -1,17 +1,21 @@
 ---
 layout: default
-title: ADD-ONS
+title: Add-Ons
+collection: addons
 ---
 
 
-<section class="site-section subpage-site-section section-blog">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                {% for addon in site.addons %}
-                    {% include addon.html addon=addon %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</section><!-- /.section-portfolio -->
+<div class="svc-info">
+    <h2> Service info </h2>
+    <ul>
+        <li>FB banner design.</li>
+        <li>Bookmark design.</li>
+        <li>Box set design</li>
+        <li>Audio Book cover</li>
+        <li>Paperback design</li>
+        <li>Teaser graphics</li>
+    </ul>
+</div>
+
+
+{% include portfolio-items.html %}
