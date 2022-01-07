@@ -11,7 +11,10 @@
         </ul>
         -->
 
+        {{ page | inspect }}
+        {{ site[page.collection] | inspect }}
         {% if site[page.collection] %}
+            {{ ede }}
             {% assign collection = site.collections | where: "label", page.collection | first }}
         
             <div id="grid" class="row">
