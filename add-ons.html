@@ -8,63 +8,9 @@ title: ADD-ONS
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <article class="blog-post">
-                    <a href="blog-post.html">
-                        <img src="assets/mockup1.png" class="img-res" alt="">
-                    </a>
-                    <div class="post-content">
-                        <h3 class="post-title"><a href="blog-post.html">Book mockups</a></h3>
-                        <p>Great for commercial use.</p>
-                        <div class="text-right">
-                        </div>
-                        <div class="post-meta">
-                        </div><!-- /.post-meta -->
-                    </div><!-- /.post-content -->
-                </article><!-- /.blog-post -->
-                <article class="blog-post">
-                        <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
-                    </a>
-                    <div class="post-content">
-                        <h3 class="post-title"><a href="blog-post.html">Customize WordPress Themes Easily</a></h3>
-                        <p>This guide is intended for those with some knowledge of HTML and CSS, but aren’t too familiar with the way WordPress themes work. If you don’t know much about web design but you are interested, that’s good too. We’ll explain everything each step of the way.</p>
-                        <div class="text-right">
-                            <a class="read-more" href="blog-post.html">Read more</a>
-                        </div>
-                        <div class="post-meta">
-                        </div><!-- /.post-meta -->
-                    </div><!-- /.post-content -->
-                </article><!-- /.blog-post -->
-                <article class="blog-post">
-                        <img src="assets/img/portfolio-3.jpg" class="img-res" alt="">
-                    </a>
-                    <div class="post-content">
-                        <h3 class="post-title"><a href="blog-post.html">Creative Website Template PSD</a></h3>
-                        <p>Free PSD web templates can be found everywhere on the internet. Most of them are ugly, some of them look nice, but rarely will you find anything great. Since Adobe Photoshop is one of those „easy to use – hard to master“ programs, many beginners and professionals decide to use PSD templates for their first website.</p>
-                        <div class="text-right">
-                            <a class="read-more" href="blog-post.html">Read more</a>
-                        </div>
-                        <div class="post-meta">
-                        </div><!-- /.post-meta -->
-                    </div><!-- /.post-content -->
-                </article><!-- /.blog-post -->
-
-                <div class="ui-pagination mt-50">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <ul class="pagination">
-                                <li><a href="#">&lt;&lt;</a></li>
-                                <li><a href="#">&lt;</a></li>
-                                <li class="more"><a href="#">...</a></li>
-                                <li><a href="#">31</a></li>
-                                <li class="active"><a href="#">32</a></li>
-                                <li><a href="#">33</a></li>
-                                <li class="more"><a href="#">...</a></li>
-                                <li><a href="#">&gt;</a></li>
-                                <li><a href="#">&gt;&gt;</a></li>
-                            </ul><!-- /.pagination -->               
-                        </div>
-                    </div>
-                </div><!-- /.ui-pagination -->
+                {% for addon in site.addons %}
+                    {% include addon.html addon=addon %}
+                {% endfor %}
             </div>
             <aside class="col-md-4">
                 <div class="sidebar">
@@ -72,7 +18,8 @@ title: ADD-ONS
                         <h4 class="widget-title">Search the blog</h4>
                         <form class="form-group">
                             <input type="text" class="form-control" placeholder="Search" required>
-                            <button class="btn btn-green" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <button class="btn btn-green" type="button"><i class="fa fa-search"
+                                    aria-hidden="true"></i></button>
                         </form>
                     </div><!-- /.search-form -->
                     <div class="widget widget-recent-posts">
