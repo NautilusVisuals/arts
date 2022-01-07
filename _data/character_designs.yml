@@ -4,7 +4,7 @@ alikeseries:
   price: 80.00
   category: Available for all.
   images: 
-      - assets/img/character1.png
+      - /assets/img/character1.png
       
 
 alikeseries14:
@@ -13,7 +13,7 @@ alikeseries14:
   price: 80.00
   category: Available for all.
   images: 
-      - assets/img/14.png
+      - /assets/img/14.png
      
 alikeseries1:
   title: Alike series
@@ -21,7 +21,7 @@ alikeseries1:
   price: 80.00
   category: Available for all.
   images: 
-      - assets/img/character.png
+      - /assets/img/character.png
 
 michael:
   title: Michael
@@ -29,7 +29,7 @@ michael:
   price: 80.00
   category: Available for all.
   images: 
-      - assets/img/Mihail.png
+      - /assets/img/Mihail.png
 
       
 

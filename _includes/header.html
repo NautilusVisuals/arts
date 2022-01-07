@@ -52,10 +52,16 @@
 
 {% else %}
 
+{% if page.table and page.item %}
+    {% assign title = site.data[page.table][page.item].title %}
+{% else %}
+    {% assign title = page.title %}
+{% endif %}
+
 <div id="hero" class="hero overlay subpage-hero {{ page.title | downcase | replace: ' ', '-'  }}-hero">
     <div class="hero-content">
         <div class="hero-text">
-            <h1>{{ page.title }}</h1>
+            <h1>{{ title }}</h1>
         </div><!-- /.hero-text -->
     </div><!-- /.hero-content -->
 </div><!-- /.hero -->
