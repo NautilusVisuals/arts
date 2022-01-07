@@ -1,0 +1,38 @@
+alikeseries:
+  title: Alike series
+  description:
+  price: 80.00
+  category: Available for all.
+  images: 
+      - assets/img/character1.png
+      
+
+alikeseries14:
+  title: Alike series
+  description:
+  price: 80.00
+  category: Available for all.
+  images: 
+      - assets/img/14.png
+     
+alikeseries1:
+  title: Alike series
+  description:
+  price: 80.00
+  category: Available for all.
+  images: 
+      - assets/img/character.png
+
+michael:
+  title: Michael
+  description:
+  price: 80.00
+  category: Available for all.
+  images: 
+      - assets/img/Mihail.png
+
+      
+
+      
+
+
