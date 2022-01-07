@@ -11,17 +11,9 @@
         </ul>
         -->
 
-        {{ page | inspect }}
-        <hr/>
-        {{ site[page.collection] | inspect }}
-        <hr/>
-        {{ site.collections | where: "label", page.collection | first | inspect }}
-        <hr/>
-        dgd
-        {% if page.collection %}
-            {{ ede }}
-            {% assign collection = site.collections | where: "label", page.collection | first }}
+        {% assign collection = site.collections | where: "label", page.collection | first %}
         
+        {% if collection %}
             <div id="grid" class="row">
                 {% assign items = site[page.collection] | sort: "order" %}
                 {% for item in items reversed %}
