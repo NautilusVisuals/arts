@@ -13,10 +13,9 @@
 
         {% if site.data[page.table] %}
             <div id="grid" class="row">
-                {% for item in site.data[page.table] %}
-                    dd {{ item }}
-
-                    ff {{ item[0] }} ss {{ item[1] }}
+                {% for i in site.data[page.table] %}
+                    {% assign key = i[0] %}
+                    {% assign item = i[1] %}
 
                     <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["webdesign"]'>
                         <div class="portfolio-item">
