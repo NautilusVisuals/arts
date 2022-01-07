@@ -12,6 +12,8 @@
         -->
 
         {% if site[page.collection] %}
+            {% assign collection = site.collections | where: "label", page.collection | first }}
+        
             <div id="grid" class="row">
                 {% assign items = site[page.collection] | sort: "order" %}
                 {% for item in items reversed %}
@@ -22,9 +24,11 @@
                                 <h4>{{ item.title }}</h4>
                                 <p>{{ item.description }}</p>
                             </div>
+                            {% if collection.output %}
                             <a href="{{ item.url }}">
                                 More
                             </a>
+                            {% endif %}
                         </div><!-- /.portfolio-item -->
                     </div>
                 {% endfor %}
