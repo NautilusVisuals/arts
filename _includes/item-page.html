@@ -1,0 +1,50 @@
+
+<section class="site-section subpage-site-section section-project">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                {% for image in page.images %}
+                <div class="project-img">
+                    <img src="{{ image }}" class="img-res" alt="">
+                </div><!-- /.project-img -->
+                {% endfor %}
+
+            </div>
+            <aside class="col-md-4">
+                <div class="project-info">
+                    <h5>Description</h5>
+
+                    <p class="project-description">{{ page.description }}</p>
+
+                    <div class="project-date-category">
+                        <p><span>Category:</span>{{ page.category }}</p>
+                        <p><span>Price:</span> {{ page.price }}</p>
+                    </div><!-- /.project-cat -->
+
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="NautilusVisuals@gmail.com">
+                        <input type="hidden" name="lc" value="US">
+                        <input type="hidden" name="item_name" value="{{ page.title }}"> 
+                        <input type="hidden" name="amount" value="{{ page.price }}">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="button_subtype" value="services">
+                        <input type="hidden" name="no_note" value="0">
+                        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynow_SM.gif:NonHostedGuest">
+                        <input type="submit" name="submit" class="btn btn-gray" value="BUY NOW">
+                        <input type="hidden" name="no_shipping" value="1">
+                    </form>
+
+                    <div class="social-links">
+                        <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
+                        <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
+                        <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
+                    </div><!-- /.social-links -->
+                    
+                </div><!-- /.project-description -->
+            </aside>
+        </div>
+    </div>
+    
+</section><!-- /.section-project --> 
