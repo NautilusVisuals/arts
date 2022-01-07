@@ -4,5 +4,5 @@ description:
 price: "140.00"
 category: 
 images: 
-    - /assets/img/cursedguardian.png
+    - /assets/img/cursedfuardian.png
 ---
