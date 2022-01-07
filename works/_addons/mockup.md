@@ -1,5 +1,6 @@
 ---
 title: Book Mockup
 description:
-image: /assets/img/mockup1.png
+images: 
+  - /assets/img/mockup1.png
 ---
