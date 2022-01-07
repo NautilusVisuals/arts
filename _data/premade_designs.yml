@@ -1,7 +1,7 @@
 hispossession:
   title: His Possession 
   description:
-  price: 120.00
+  price: "120.00"
   category: Romance, Thriller.
   images: 
       - /assets/img/posesion.png
@@ -10,7 +10,7 @@ hispossession:
 thewitch:
   title: The Witch
   description:
-  price: 160.00
+  price: "160.00"
   category: Fantasy, sci-fi, adventure, action, magical
   images: 
       - /assets/img/witch.png
@@ -19,7 +19,7 @@ thewitch:
 serpent:
   title: Serpent
   description:
-  price: 100.00
+  price: "100.00"
   category: Fantasy, sci-fi, adventure, action, magical
   images: 
       - /assets/img/serpent.png
@@ -27,7 +27,7 @@ serpent:
 hellsangel:
   title: Hell's Angel
   description:
-  price: 50.00
+  price: "50.00"
   category: Fantasy, sci-fi, adventure, action, magical, romance
   images: 
       - /assets/img/hellsangel.png

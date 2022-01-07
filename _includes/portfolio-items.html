@@ -14,6 +14,7 @@
         {% if site.data[page.table] %}
             <div id="grid" class="row">
                 {% for item in site.data[page.table] %}
+                    dd {{ item }}
                     <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["webdesign"]'>
                         <div class="portfolio-item">
                             <img src="{{ item.images[0] }}" class="img-res" alt="">
