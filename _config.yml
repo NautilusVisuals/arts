@@ -1,0 +1,23 @@
+collections_dir: works
+
+collections:
+  premades:
+    output: true
+  characters:
+    output: true
+    
+defaults:
+  - scope:
+      path: ""
+      type: "premades"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
