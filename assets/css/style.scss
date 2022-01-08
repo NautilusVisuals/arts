@@ -897,7 +897,7 @@ html, body {
 }
 .portfolio-item {
 	margin-top: 30px;
-	height: 425px;
+	// height: 425px;
 	position: relative;
 	&:before {
 		content: "";
@@ -926,13 +926,8 @@ html, body {
 			opacity: 1;
 		}
 	}
-	.img-blur {
-		position: absolute;
-		top: 0;
-		left: 0;
-		object-fit: cover;
-		z-index: -1;
-		filter: blur(10px);	
+	> img {
+		max-width: 100%;
 	}
 	a {
 		bottom: 15px;
