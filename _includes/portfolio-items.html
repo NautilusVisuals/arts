@@ -1,21 +1,32 @@
 <section class="site-section subpage-site-section section-{{ page.title | downcase | replace: ' ', '-' }}">
     <div class="container">
         
-        <!-- 
-        <ul class="portfolio-sorting list-inline text-center">
-            <li><a href="#" class="btn btn-gray active" data-group="all">Available</a></li>
-            <li><a href="#" class="btn btn-gray" data-group="webdesign">Full wrap designs</a></li>
-            <li><a href="#" class="btn btn-gray" data-group="webdesign">Series</a></li>
-            <li><a href="#" class="btn btn-gray" data-group="webdesign">Sold Designs</a></li>
-
-        </ul>
-        -->
-
-        {% assign collection = site.collections | where: "label", page.collection | first %}
+        {% liquid 
         
-        {% if collection %}
+        assign collection = site.collections | where: "label", page.collection | first %}
+        
+        if collection
+            assign items = site[page.collection] | sort: "order"
+            assign groups = "" | split: ""
+            for item in items
+                assign groups = groups | concat: item.groups
+            endfor %}
+        
+            {{ groups | inspect }}
+            {{ groups | uniq | join: ", " }}
+        
+            <ul class="portfolio-sorting list-inline text-center">
+                
+                {% for item in items %}
+                    <li><a href="#" class="btn btn-gray active" data-group="all">Available</a></li>
+                    <li><a href="#" class="btn btn-gray" data-group="webdesign">Full wrap designs</a></li>
+                    <li><a href="#" class="btn btn-gray" data-group="webdesign">Series</a></li>
+                    <li><a href="#" class="btn btn-gray" data-group="webdesign">Sold Designs</a></li>
+                {% endfor %}
+                
+            </ul>
+        
             <div id="grid" class="row">
-                {% assign items = site[page.collection] | sort: "order" %}
                 {% for item in items reversed %}
                     <div class="col-lg-3 col-md-4 col-xs-6" data-groups='{{ item.groups | jsonify }}'>
                         <div class="portfolio-item">
