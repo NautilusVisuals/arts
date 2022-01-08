@@ -1,16 +1,14 @@
 <section class="site-section subpage-site-section section-{{ page.title | downcase | replace: ' ', '-' }}">
     <div class="container">
         
-        {% liquid 
+        {% assign collection = site.collections | where: "label", page.collection | first %}
         
-        assign collection = site.collections | where: "label", page.collection | first %}
-        
-        if collection
-            assign items = site[page.collection] | sort: "order"
-            assign groups = "" | split: ""
-            for item in items
-                assign groups = groups | concat: item.groups
-            endfor %}
+        {% if collection %}
+            {% assign items = site[page.collection] | sort: "order" %}
+            {% assign groups = "" | split: "" %}
+            {% for item in items %}
+                {% assign groups = groups | concat: item.groups %}
+            {% endfor %}
         
             {{ groups | inspect }}
             {{ groups | uniq | join: ", " }}
