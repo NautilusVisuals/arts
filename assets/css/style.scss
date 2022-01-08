@@ -39,7 +39,7 @@ a {
 }
 a:focus,
 a:hover {
-	color: hotpink;
+	color: #6a0035;
 	outline: 0 none;
 	text-decoration: none;
 }
@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5 {
 	color: #26272d;
 }
 .btn-green {
-	background-color: hotpink;
+	background-color: #6a0035;
 	color: #fff;
 }
 .btn:hover,
@@ -102,7 +102,7 @@ button.btn:focus {
 }
 .btn-gray:hover,
 .btn-gray:focus {
-	background-color: hotpink;
+	background-color: #6a0035;
 	color: #fff;
 }
 .form-group {
@@ -221,7 +221,7 @@ input[type=radio] {
 	width: 20px;
 	border-radius: 3px;
 	color: #fff;
-	background-color: hotpink;
+	background-color: #6a0035;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -241,11 +241,11 @@ input[type=radio] {
 }
 .checkbox [type="checkbox"]:checked:focus + label:before,
 .checkbox [type="checkbox"]:not(:checked):focus + label:before {
-	border: 1px dotted hotpink;
+	border: 1px dotted #6a0035;
 }
 .checkbox [type="checkbox"]:not(:checked) + label:hover:before,
 .checkbox [type="checkbox"]:checked + label:hover:before {
-	border: 1px solid hotpink;
+	border: 1px solid #6a0035;
 }
 .radio-btn {
 	label {
@@ -316,7 +316,7 @@ input[type=radio] {
 	height: 12px;
 	top: 50%;
 	left: 4px;
-	background-color: hotpink;
+	background-color: #6a0035;
 	border-radius: 50px;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -337,11 +337,11 @@ input[type=radio] {
 }
 .radio-btn [type="radio"]:checked:focus + label:before,
 .radio-btn [type="radio"]:not(:checked):focus + label:before {
-	border: 1px dotted hotpink;
+	border: 1px dotted #6a0035;
 }
 .radio-btn [type="radio"]:checked + label:hover:before,
 .radio-btn [type="radio"]:not(:checked) + label:hover:before {
-	border: 1px solid hotpink;
+	border: 1px solid #6a0035;
 }
 select {
 	position: absolute !important;
@@ -409,7 +409,7 @@ select {
 		}
 	}
 	.selected {
-		color: hotpink;
+		color: #6a0035;
 	}
 	.check-mark {
 		display: none;
@@ -427,8 +427,8 @@ select {
 }
 .nav-tabs.tab-style > li.active > a,
 .nav-tabs.tab-style > li > a:hover {
-	border: 1px solid hotpink;
-	background-color: hotpink;
+	border: 1px solid #6a0035;
+	background-color: #6a0035;
 	color: #fff;
 }
 .nav-tabs {
@@ -518,7 +518,7 @@ select {
 .accordion .panel-heading a.collapsed:hover,
 .accordion.accordion-gray .panel-heading a.collapsed:hover,
 .accordion .panel-heading a {
-	background-color: hotpink;
+	background-color: #6a0035;
 	color: #fff;
 }
 .panel-group .panel-heading+.panel-collapse>.list-group, 
@@ -572,7 +572,7 @@ select {
 .pagination > li.active > a,
 .pagination > li > a:hover,
 .pagination > li.active > a:hover {
-	background-color: hotpink;
+	background-color: #6a0035;
 	color: #fff;
 }
 html, body {
@@ -652,7 +652,7 @@ html, body {
 		border-radius: 0;
 		min-width: 130px;
 		border: 0;
-		border-top: 5px solid hotpink;
+		border-top: 5px solid #6a0035;
 		top: 140%;
 		transition: all 0.4s;
 		-moz-transition: all 0.4s;
@@ -690,7 +690,7 @@ html, body {
 .slicknav_open .slicknav_arrow,
 .slicknav_nav > li a:hover {
 	background-color: transparent;
-	color: hotpink;
+	color: #6a0035;
 }
 .navbar-toggle {
 	border-color: #fff;
@@ -792,7 +792,7 @@ html, body {
 	}
 	a {
 		&:hover {
-			color: hotpink;
+			color: #6a0035;
 		}
 	}
 }
@@ -1029,7 +1029,7 @@ html, body {
 }
 .list-unstyled li a:hover,
 .list-unstyled li.active a {
-	color: hotpink;
+	color: #6a0035;
 }
 .copyright {
 	padding: 30px 0;
@@ -1084,7 +1084,7 @@ html, body {
 			font-size: 16px;
 		}
 		.active {
-			background-color: hotpink;
+			background-color: #6a0035;
 			color: #fff;
 			box-shadow: none;
 		}
@@ -1198,14 +1198,14 @@ html, body {
 		}
 		&:hover {
 			&:after {
-				background-color: hotpink;
+				background-color: #6a0035;
 			}
 		}
 	}
 }
 .blog-post a:hover + .post-content .post-title a,
 .post-content a:hover {
-	color: hotpink;
+	color: #6a0035;
 }
 .post-meta {
 	padding: 5px 0;
