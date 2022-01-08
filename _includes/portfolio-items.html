@@ -7,7 +7,9 @@
             {% assign items = site[page.collection] | sort: "order" %}
             {% assign groups = "" | split: "" %}
             {% for item in items %}
-                {% assign groups = groups | concat: item.groups %}
+                {% if item.groups %}
+                    {% assign groups = groups | concat: item.groups %}
+                {% endif %}
             {% endfor %}
         
             {{ groups | inspect }}
