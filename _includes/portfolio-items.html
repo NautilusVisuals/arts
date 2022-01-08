@@ -17,7 +17,7 @@
             <div id="grid" class="row">
                 {% assign items = site[page.collection] | sort: "order" %}
                 {% for item in items reversed %}
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["webdesign"]'>
+                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='{{ item.groups | jsonify }}'>
                         <div class="portfolio-item">
                             <img src="{{ item.images[0] }}" class="img-res" alt="">
                             <div class="portfolio-item-title">
