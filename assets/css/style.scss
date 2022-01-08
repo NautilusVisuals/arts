@@ -589,7 +589,9 @@ html, body {
 	height: 100vh;
 	max-width: 100%;
 	max-height: 100%;
-	object-fit: cover;
+	object-fit: contain;
+	background: url(../img/hero.jpg) no-repeat center/cover;
+	border: solid 1px #ddd;
 }
 .gray-bg {
 	background-color: #ebcae5;
@@ -894,7 +896,7 @@ html, body {
 }
 .portfolio-item {
 	margin-top: 30px;
-	height: 480px;
+	height: 425px;
 	position: relative;
 	&:before {
 		content: "";
