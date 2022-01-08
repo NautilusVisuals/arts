@@ -14,7 +14,7 @@
         
             <ul class="portfolio-sorting list-inline text-center">
                 
-                <li><a href="#" class="btn btn-gray active" data-group="all">Available</a></li>
+                <li><a href="#" class="btn btn-gray active" data-group="all">{{ site.data.groups.all }}</a></li>
                 {% for group in groups %}
                     <li><a href="#" class="btn btn-gray" data-group="{{ group }}">{{ site.data.groups[group] }}</a></li>
                 {% endfor %}
