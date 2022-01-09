@@ -2,10 +2,11 @@
 layout: default
 ---
 
-{% assign price = price.page | downcase %}
+{% assign price = page.price | downcase %}
 {% assign sold = "sold" %}
+{% assign issold = price == sold %}
 
-DD {{ price | inspect }} FF {{ sold | inspect }} GG {{ price != sold | inspect }}
+DD {{ price | inspect }} FF {{ sold | inspect }} GG {{ price != sold | inspect }} II {{ issold | inspect }}
 
 <section class="site-section subpage-site-section section-portfolio-item">
     <div class="container">
