@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign price = price.page | downcase %}
-{% assign notsold = price != "sold" %}
+{% assign sold = "sold" %}
 
 <section class="site-section subpage-site-section section-portfolio-item">
     <div class="container">
@@ -24,12 +24,12 @@ layout: default
 
                     <div class="project-date-category">
                         <p><span>Category:</span> {{ page.category }}</p>
-                        {% if notsold %}
+                        {% if price != sold %}
                             <p><span>Price:</span> ${{ page.price }}</p>
                         {% endif %}
                     </div><!-- /.project-cat -->
 
-                    {% if notsold %}
+                    {% if price != sold %}
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                         <input type="hidden" name="cmd" value="_xclick">
                         <input type="hidden" name="business" value="NautilusVisuals@gmail.com">
