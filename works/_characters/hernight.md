@@ -1,7 +1,7 @@
 ---
 title: Her Night
 description:
-price: "80.00"
+price: SOLD
 category: Available for all.
 images: 
     - /assets/img/hernight.png

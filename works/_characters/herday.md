@@ -1,7 +1,7 @@
 ---
 title: Her Day
 description:
-price: "80.00"
+price: SOLD
 category: Available for all.
 images: 
     - /assets/img/herday.png
