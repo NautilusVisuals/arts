@@ -5,6 +5,8 @@ layout: default
 {% assign price = price.page | downcase %}
 {% assign sold = "sold" %}
 
+DD {{ price | inspect }} FF {{ sold | inspect }} GG {{ price != sold | inspect }}
+
 <section class="site-section subpage-site-section section-portfolio-item">
     <div class="container">
         <div class="row">
