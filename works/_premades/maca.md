@@ -4,6 +4,6 @@ description:
 price: "100.00"
 category: 
 images: 
-    - /assets/img/steel.png
+    - /assets/img/maca.png
 order: 506
 ---
