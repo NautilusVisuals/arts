@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/vm.png
+    - /assets/img/pv.png
 order: 509
 ---
