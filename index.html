@@ -50,19 +50,23 @@ title: Index
                 <div>
                         <h3>Other services</h3>
                         
-                        {% for service in site.data.services.other %}
-                                <div>
-                                        <span>{{ service.name }}</span>
-                                        <ul>
-                                        {% for item in service.items %}
-                                                <li class="list-group-item" style="border-width: 1px 0">
-                                                        {{ item.name }}: 
-                                                        <strong>${{ item.price }}</strong>
-                                                </li>
-                                        {% endfor %}
-                                        </ul>
-                                </div>
-                        {% endfor %}
+                        <div class="row">
+                                {% for service in site.data.services.other %}
+                                        <div class="col-md-3 col-sm-3 text-center">
+                                                <div class="panel">
+                                                        <div class="panel-body text-center"><strong>{{ service.name }}</strong></div>
+                                                        <ul class="list-group">
+                                                        {% for item in service.items %}
+                                                                <li class="list-group-item" style="border-width: 1px 0">
+                                                                        {{ item.name }}: 
+                                                                        <strong>${{ item.price }}</strong>
+                                                                </li>
+                                                        {% endfor %}
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                {% endfor %}
+                        </div>
                 </div>
             </div>
         </section><!-- /.section-services --> 
