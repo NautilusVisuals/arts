@@ -31,6 +31,17 @@ packages:
       - 2 Bookmarks
       - 2 Characters
       - 2 Teasers
+      
+  - name: Budget Package
+    price: 175
+    items:
+      - Ebook
+      - Paperback
+      - PNG Title
+      - 5 or more Stock images
+      - 3D Rendered
+      - 2 Characters
+      - 1 Teaser
 
 other:
   - name: Character Package
