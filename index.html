@@ -23,8 +23,12 @@ title: Index
                 <p class="subheading-text">What I offer</p>
                 <div class="row">
                      {% for package in site.data.services.packages %}
-                        <div class="col-md-4 col-sm-4 text-center">
+                        <div class="col-md-3 col-sm-3 text-center">
+                                {% if package.highlight %}
+                                <div class="panel panel-primary">
+                                {% else %}
                                 <div class="panel panel-default">
+                                {% endif %}
                                     <div class="panel-heading">
                                         <h3>{{ package.name }}</h3>
                                     </div>
@@ -46,6 +50,19 @@ title: Index
                                 </div>
                         </div>
                      {% endfor %}
+                </div>
+                        
+                <div>
+                {% for service in site.data.services.other %}
+                        <div>
+                                <span>{{ service.name }}</span>
+                                <ul>
+                                {% for item in service.items %}
+                                        <li>{{ item }}</li>
+                                {% endfor %}
+                                </ul>
+                        </div>
+                {% endfor %}
                 </div>
             </div>
         </section><!-- /.section-services --> 
