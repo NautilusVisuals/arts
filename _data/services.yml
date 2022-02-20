@@ -1,0 +1,63 @@
+packages:
+  - name: Standard Package
+    price: 90
+    items:
+      - Ebook
+      - Paperback
+      - PNG Title
+      - 3 to 4 Stock images
+      - 3D Rendered
+
+  - name: Premium Package
+    price: 125
+    items:
+      - Ebook
+      - Paperback
+      - PNG Title
+      - 5 or more Stock images
+      - 3D Rendered
+      - Banner
+      - Bookmark
+      
+  - name: Exclusive Package
+    price: 250
+    items:
+      - Ebook
+      - Paperback
+      - PNG Title
+      - 5 or more Stock images
+      - 3D Rendered
+      - Banner
+      - 2 Bookmarks
+      - 2 Characters
+      - 2 Teasers
+
+other:
+  - name: Character Package
+    items:
+      - name: 5 Characters
+        price: 160
+      - name: 10 Characters
+        price: 210
+  - name: Logos
+    items:
+      - name: Book Logo
+        price: 25
+      - name: Logo
+        price: 35
+  - name: Merchandise Package
+    items:
+      - name: 5 Designs
+        price: 55
+      - name: 7 Designs
+        price: 75
+  - name: Other
+    items:
+      - name: Bookmarks
+        price: 10
+      - name: Banners
+        price: 10
+      - name: Single Designs
+        price: 15
+      - name: Individual Characters
+        price: 25
