@@ -53,16 +53,18 @@ title: Index
                 </div>
                         
                 <div>
-                {% for service in site.data.services.other %}
-                        <div>
-                                <span>{{ service.name }}</span>
-                                <ul>
-                                {% for item in service.items %}
-                                        <li>{{ item }}</li>
-                                {% endfor %}
-                                </ul>
-                        </div>
-                {% endfor %}
+                        <h3>Other services</h3>
+                        
+                        {% for service in site.data.services.other %}
+                                <div>
+                                        <span>{{ service.name }}</span>
+                                        <ul>
+                                        {% for item in service.items %}
+                                                <li>{{ item }}</li>
+                                        {% endfor %}
+                                        </ul>
+                                </div>
+                        {% endfor %}
                 </div>
             </div>
         </section><!-- /.section-services --> 
