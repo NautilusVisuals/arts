@@ -20,7 +20,6 @@ title: Index
         <section class="site-section section-services gray-bg text-center"> 
             <div class="container">
                 <h2 class="heading-separator">Services</h2>
-                <p class="subheading-text">What I offer</p>
                 <div class="row">
                      {% for package in site.data.services.packages %}
                         <div class="col-md-3 col-sm-3 text-center">
@@ -35,12 +34,7 @@ title: Index
                                     </div>
                                     <div class="panel-body">
                                             <ul class="list-group text-center">
-                                                {% for item in package.items %}
-                                                        <li class="list-group-item" style="border-width: 1px 0">
-                                                                {{ item.name }}: 
-                                                                <strong>${{ item.price }}</strong>
-                                                        </li>    
-                                                {% endfor %}
+                                                <li class="list-group-item" style="border-width: 1px 0">{{ item }}</li>
                                             </ul>
                                     </div>
                                     <div class="panel-footer">
@@ -59,7 +53,10 @@ title: Index
                                         <span>{{ service.name }}</span>
                                         <ul>
                                         {% for item in service.items %}
-                                                <li>{{ item }}</li>
+                                                <li class="list-group-item" style="border-width: 1px 0">
+                                                        {{ item.name }}: 
+                                                        <strong>${{ item.price }}</strong>
+                                                </li>
                                         {% endfor %}
                                         </ul>
                                 </div>
