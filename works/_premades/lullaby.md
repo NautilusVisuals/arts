@@ -4,6 +4,6 @@ description:
 price: "19.99"
 category: 
 images: 
-    - /assets/img/Benzin.png
+    - /assets/img/lullaby.png
 order: 517
 ---
