@@ -1,7 +1,7 @@
 ---
 title: Serpent
 description:
-price: "100.00"
+price: "SOLD"
 category: Fantasy, sci-fi, adventure, action, magical
 images: 
   - /assets/img/serpent.png

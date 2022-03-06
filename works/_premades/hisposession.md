@@ -1,7 +1,7 @@
 ---
 title: His Possession 
 description:
-price: "120.00"
+price: "60.00"
 category: Romance, Thriller.
 images: 
   - /assets/img/posesion.png

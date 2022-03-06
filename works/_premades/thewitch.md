@@ -1,7 +1,7 @@
 ---
 title: The Witch
 description:
-price: "160.00"
+price: "SOLD"
 category: Fantasy, sci-fi, adventure, action, magical
 images: 
     - /assets/img/witch.png

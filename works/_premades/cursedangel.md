@@ -1,7 +1,7 @@
 --- 
 title: Cursed Guardian
 description:
-price: "140.00"
+price: "SOLD"
 category: 
 images: 
     - /assets/img/cursedfuardian.png

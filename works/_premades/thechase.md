@@ -1,7 +1,7 @@
 ---
 title: The Chase
 description:
-price: "80.00"
+price: "SOLD"
 category: Crime, Thriler, Mafia
 images: 
   - /assets/img/thechase1.png

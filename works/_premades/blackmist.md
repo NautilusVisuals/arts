@@ -1,7 +1,7 @@
 --- 
 title: "Black Mist"
 description:
-price: "100.00"
+price: "SOLD"
 category: 
 images: 
     - /assets/img/maca.png

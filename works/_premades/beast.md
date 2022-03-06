@@ -1,7 +1,7 @@
 --- 
 title: Invincible
 description:
-price: "120.00"
+price: "SOLD"
 category: 
 images: 
     - /assets/img/beast.png

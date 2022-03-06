@@ -1,7 +1,7 @@
 --- 
 title: Serpent Keeper
 description:
-price: "175.00"
+price: "SOLD"
 category: 
 images: 
     - /assets/img/keeper.png

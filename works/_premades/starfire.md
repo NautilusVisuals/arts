@@ -1,7 +1,7 @@
 --- 
 title: Starfire
 description:
-price: "50.00"
+price: "SOLD"
 category: 
 images: 
     - /assets/img/starfire.png

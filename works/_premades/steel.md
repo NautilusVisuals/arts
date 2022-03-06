@@ -1,7 +1,7 @@
 --- 
 title: Heart of Steel
 description:
-price: "120.00"
+price: "SOLD"
 category: 
 images: 
     - /assets/img/steel.png

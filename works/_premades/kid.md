@@ -1,7 +1,7 @@
 --- 
 title: Kidnapped on Valentine's
 description:
-price: "SOLD"
+price: "60.00"
 category: 
 images: 
     - /assets/img/kid.png

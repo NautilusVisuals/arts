@@ -1,7 +1,7 @@
 --- 
 title: Archangels's Sin
 description:
-price: "140.00"
+price: "SOLD"
 category: 
 images: 
     - /assets/img/arhangel.png
