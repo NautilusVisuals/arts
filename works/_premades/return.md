@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/stripper.png
+    - /assets/img/return.png
 order: 530
 ---
