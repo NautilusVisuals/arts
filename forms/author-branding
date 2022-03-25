@@ -1,0 +1,51 @@
+---
+layout: default
+title: AUTHOR BRANDING
+---
+
+<div class="m7w29c O8VmIc tIvQIf container">
+    <div class="JH79cc RVEQke b33AEc"></div>
+<div class="jumbotron" dir="auto">•	50% Deposit to be paid  before order is started.<br>•	You get unlimited free revisions.<br>•	NV ONLY offers payment plans on any of its pre-made and custom design packages/orders that exceed $100 or more.<br>•	All Packages Purchased must be paid IN FULL before any files are sent out. NV do not offer refunds.</div>
+    <div class="zAVwcb"></div>
+    <div class="DqBBlb">
+        <div class="Oh1Vtf">
+        </div>
+        <div class="md0UAd" aria-hidden="true" dir="auto">* Required</div>
+    </div>
+</div>
+
+<form class="container" method="POST" action="https://formspree.io/f/xpzbjwzl">
+<div class="rendered-form">
+    <div class="mt-20 formbuilder-checkbox-group form-group field-checkbox-group-1648221369558">
+        <label for="checkbox-group-1648221369558" class="formbuilder-checkbox-group-label">Do you agree to Nautilus Visuals Base policy
+            <span class="formbuilder-required">*</span></label>
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox2" name="agree-tos">
+                        <label for="checkbox2">I agree</label>
+                    </div>
+    </div>
+ 
+    <div class="mt-20 formbuilder-textarea form-group field-author-name">
+        <label for="author-name" class="formbuilder-textarea-label">AUTHOR NAME: (Please add author tag if you have one)<span class="formbuilder-required">*</span></label>
+        <textarea type="textarea" class="form-control" name="author-name" access="false" id="author-name" required="required" aria-required="true"></textarea>
+    </div>
+    <div class="mt-20 formbuilder-textarea form-group field-design-details">
+        <label for="design-details" class="formbuilder-textarea-label">DESIGN DETAILS: (please include colour theme, any design elements you wish to see on your beautiful logo. The more information I have, the better!)<span class="formbuilder-required">*</span></label>
+        <textarea type="textarea" class="form-control" name="design-details" access="false" id="design-details" required="required" aria-required="true"></textarea>
+    </div>
+    <div class="mt-20 formbuilder-textarea form-group field-links">
+        <label for="links" class="formbuilder-textarea-label">AUTHOR LINKS (for display on business card and banners ): I.E Linktr, Websites, ETC.</label>
+        <textarea type="textarea" class="form-control" name="links" access="false" id="links"></textarea>
+    </div>
+    <div class="mt-20 formbuilder-text form-group field-assets">
+        <label for="assets" class="formbuilder-text-label">CONTACT NAME AND EMAIL<span class="formbuilder-required">*</span></label>
+        <input type="text" class="form-control" name="assets" access="false" id="assets" required="required" aria-required="true">
+    </div>
+  
+  
+    <div class="mt-20 formbuilder-date field-deadline">
+        <input type="submit" class="btn btn-primary btn-block" value="Submit">
+    </div>
+</div>
+</form>
+<br/><br/>
