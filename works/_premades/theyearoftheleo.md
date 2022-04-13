@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/theyearoftheleo.png
+    - /assets/img/yearoftheleo.png
 order: 546
 ---
