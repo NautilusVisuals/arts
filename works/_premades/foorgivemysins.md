@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/forgivemysins.png
+    - /assets/img/forgivemysins.png
 order: 555
 ---
