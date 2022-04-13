@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/trappedwithindarkenss.png
+ - /assets/img/trappedwithingdarkenss.png
 order: 550
 ---
