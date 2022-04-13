@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/wrathofthealpha.png
+    - /assets/img/wrathofalpha.png
 order: 545
 ---
