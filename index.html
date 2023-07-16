@@ -22,7 +22,7 @@ title: Index
                 <h2 class="heading-separator">Services</h2>
                 <div class="row">
                     {% for package in site.data.services.packages %}
-                        {% if package.name == "Platform Package" %}
+                        {% if forloop.first %}
                             asd
                             {% assign offset = "col-lg-offset-1" }
                         {% else %}
@@ -60,7 +60,7 @@ title: Index
                         
                         <div class="row">
                                 {% for service in site.data.services.other %}
-                                        {% if service.name == "Character Design" %}
+                                        {% if forloop.first %}
                                             {% assign offset = "col-md-offset-3" }
                                         {% else %}
                                             {% assign offset = "" %}
