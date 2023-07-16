@@ -23,10 +23,10 @@ title: Index
                 <div class="row">
                     {% for package in site.data.services.packages %}
                         {% if forloop.first %}
-                            asd
+                            asd {{ forloop.index }}
                             {% assign offset = "col-lg-offset-1" }
                         {% else %}
-                            fdf
+                            fdf {{ forloop.index }}
                             {% assign offset = "" %}
                         {% endif %}
                         <div class="{{ offset }} col-lg-2 col-md-3 col-sm-3 text-center">
