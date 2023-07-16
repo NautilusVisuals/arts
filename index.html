@@ -22,7 +22,7 @@ title: Index
                 <h2 class="heading-separator">Services</h2>
                 <div class="row">
                      {% for package in site.data.services.packages %}
-                        <div class="col-md-3 col-sm-3 text-center">
+                        <div class="col-lg-2 col-md-3 col-sm-3 text-center">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h3>{{ package.name }}</h3>
@@ -53,7 +53,7 @@ title: Index
                         
                         <div class="row">
                                 {% for service in site.data.services.other %}
-                                        <div class="col-md-3 col-sm-3 text-center">
+                                        <div class="col-md-offset-3 col-md-3 col-sm-3 text-center">
                                                 <div class="panel">
                                                         <div class="panel-body text-center"><strong>{{ service.name }}</strong></div>
                                                         <ul class="list-group">
