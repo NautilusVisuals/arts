@@ -24,10 +24,10 @@ title: Index
                     {% for package in site.data.services.packages %}
 
                         {% if forloop.first %}
-                            asd {{ forloop.index }}
                             {% assign offset = "col-lg-offset-1" %}
+                        {% elsif forloop.index == 5 %}
+                            {% assign offset = "col-sm-offset-4 col-sm-4" %}
                         {% else %}
-                            fdf {{ forloop.index }}
                             {% assign offset = "" %}
                         {% endif %}
 
