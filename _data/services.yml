@@ -1,76 +1,77 @@
 packages:
-  - name: Standard Package
+  - name: Platform Package
     price: 90
     items:
       - Ebook
-      - Paperback
-      - PNG Title
-      - 1 Stock image
-      - 3D Rendered
+      - Artwork
+      - PNG Typography
+      - FB Banner
+      - IG Promo
+      - 3D Mockups
 
-  - name: Premium Package
-    price: 125
+  - name: Standard Package
+    price: 100
     items:
       - Ebook
       - Paperback
-      - PNG Title
-      - 2 Stock images
-      - 3D Rendered
-      - Banner
-      - Bookmark
-
+      - Artwork
+      - PNG Typography
+      - 3D Mockups
+      - up to 5 stocks
+      
   - name: Budget Package
     highlight: true
-    price: 175
+    price: 150
     items:
       - Ebook
       - Paperback
-      - PNG Title
+      - Artwork
+      - PNG Typography
       - 3 Stock images
-      - 3D Rendered
-      - 2 Characters
-      - 1 Teaser
+      - 3D Mockups
+      - Bookmarks
+      - Banner
+      - up to 5 stocks
+
+  - name: Premium Package
+    price: 200
+    items:
+      - Ebook
+      - Paperback
+      - Artwork
+      - PNG Typography
+      - 3 Stock images
+      - 3D Mockups
+      - Bookmarks
+      - 1 Character included
+      - up to 10 stocks
 
   - name: Exclusive Package
-    price: 250
+    price: 280
     items:
       - Ebook
       - Paperback
-      - PNG Title
-      - 5 or more Stock images
-      - 3D Rendered
-      - Banner
-      - 2 Bookmarks
+      - Artwork
+      - PNG Typography
+      - 3 Stock images
+      - 3D Mockups
+      - Bookmarks
       - 2 Characters
-      - 2 Teasers
+      - Banner
+      - IG Promo
+      - Unlimited stock usage
 
 
 other:
-  - name: Character Package
+  - name: Character Design
     items:
-      - name: 5 Characters
-        price: 160
-      - name: 10 Characters
-        price: 210
-  - name: Logos
+      - name: Half body character
+        price: 60
+      - name: Full body character
+        price: 100
+  - name: Packages
     items:
-      - name: Book Logo
-        price: 25
-      - name: Logo
-        price: 35
-  - name: Merchandise Package
-    items:
-      - name: 5 Designs
-        price: 55
-      - name: 7 Designs
-        price: 75
-  - name: Other
-    items:
-      - name: Bookmarks
-        price: 10
-      - name: Banners
-        price: 10
-      - name: Single Designs
-        price: 15
-      - name: Individual Characters
-        price: 25
+      - name: Ten characters half body
+        price: 480
+      - name: Ten characters full body
+        price: 700
