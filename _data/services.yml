@@ -1,77 +1,74 @@
 packages:
-  - name: Platform Package
-    price: 90
+  - name: Budget Package
+    price: 99
     items:
-      - Ebook
-      - Artwork
-      - PNG Typography
-      - FB Banner
-      - IG Promo
-      - 3D Mockups
+      - eBook cover
+      - Paperback/Hardback cover
+      - Artwork without title
+      - PNG typography title
+      - 3D Mockups of book cover
 
   - name: Standard Package
-    price: 100
+    price: 149
     items:
-      - Ebook
-      - Paperback
-      - Artwork
-      - PNG Typography
-      - 3D Mockups
-      - up to 5 stocks
-      
-  - name: Budget Package
-    highlight: true
-    price: 150
-    items:
-      - Ebook
-      - Paperback
-      - Artwork
-      - PNG Typography
-      - 3 Stock images
-      - 3D Mockups
-      - Bookmarks
-      - Banner
-      - up to 5 stocks
+      - eBook cover
+      - Paperback/Hardback cover
+      - Artwork without title
+      - PNG typography title
+      - 3D Mockups of book cover
+      - Bookmark
+      - Social media banner
 
   - name: Premium Package
-    price: 200
+    price: 199
     items:
-      - Ebook
-      - Paperback
-      - Artwork
-      - PNG Typography
-      - 3 Stock images
-      - 3D Mockups
-      - Bookmarks
-      - 1 Character included
-      - up to 10 stocks
+      - eBook cover
+      - Paperback/Hardback cover
+      - Artwork without title
+      - PNG typography title
+      - 3D Mockups of book cover
+      - Bookmark
+      - Social media banner
+      - 1 Character
 
   - name: Exclusive Package
-    price: 280
+    price: 279
     items:
-      - Ebook
-      - Paperback
-      - Artwork
-      - PNG Typography
-      - 3 Stock images
-      - 3D Mockups
-      - Bookmarks
+      - eBook cover
+      - Paperback/Hardback cover
+      - Artwork without title
+      - PNG typography title
+      - 3D Mockups of book cover
+      - Bookmark
+      - Social media banner
       - 2 Characters
-      - Banner
-      - IG Promo
-      - Unlimited stock usage
+      - IG promo
 
 
 other:
   - name: Character Design
     items:
       - name: Half body character
-        price: 60
+        price: 59
       - name: Full body character
-        price: 100
+        price: 99
   - name: Packages
     items:
       - name: Ten characters half body
-        price: 480
+        price: 479
       - name: Ten characters full body
-        price: 700
+        price: 699
+  - name: NSFW
+    items:
+      - name: Two characters
+        price: 149
+      - name: Three characters
+        price: 199
+      - name: four characters
+        price: 249
+      - name: Male single
+        price: 99
+      - name: Female single
+        price: 99
+      - name: Creatures
+        price: 129
