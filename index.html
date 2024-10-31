@@ -62,11 +62,11 @@ title: Index
                         <div class="row">
                                 {% for service in site.data.services.other %}
                                         {% if forloop.first %}
-                                            {% assign offset = "col-sm-offset-2" %}
+                                            {% assign offset = "col-sm-offset-0" %}
                                         {% else %}
                                             {% assign offset = "" %}
                                         {% endif %}
-                                        <div class="{{ offset }} col-sm-4 text-center">
+                                        <div class="{{ offset }} col-sm-6 text-center">
                                                 <div class="panel">
                                                         <div class="panel-body text-center"><strong>{{ service.name }}</strong></div>
                                                         <ul class="list-group">

@@ -66,6 +66,8 @@ other:
         price: 199
       - name: four characters
         price: 249
+  - name: NSFW
+    items:
       - name: Male single
         price: 99
       - name: Female single
