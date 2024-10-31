@@ -3,7 +3,7 @@ packages:
     price: 99
     items:
       - eBook cover
-      - Paperback/Hardback cover
+      - Paperback / Hardback cover
       - Artwork without title
       - PNG typography title
       - 3D Mockups of book cover
@@ -12,7 +12,7 @@ packages:
     price: 149
     items:
       - eBook cover
-      - Paperback/Hardback cover
+      - Paperback / Hardback cover
       - Artwork without title
       - PNG typography title
       - 3D Mockups of book cover
@@ -23,7 +23,7 @@ packages:
     price: 199
     items:
       - eBook cover
-      - Paperback/Hardback cover
+      - Paperback / Hardback cover
       - Artwork without title
       - PNG typography title
       - 3D Mockups of book cover
@@ -35,7 +35,7 @@ packages:
     price: 279
     items:
       - eBook cover
-      - Paperback/Hardback cover
+      - Paperback / Hardback cover
       - Artwork without title
       - PNG typography title
       - 3D Mockups of book cover
