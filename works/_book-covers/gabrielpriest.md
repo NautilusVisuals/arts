@@ -1,7 +1,7 @@
 --- 
 title: "Her Angel His Devil"
 description:
-price: "SOLD"
+price: 150
 category: 
 images: 
     - /assets/img/available/gabrielpriest.png
