@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/portfolio/hide.png
+    - /assets/img/portfolio/hide.jpg
 order: 590
 ---

@@ -4,6 +4,6 @@ description:
 price: 
 category: Available for all.
 images: 
-    - /assets/img/portfolio/brothers.png
+    - /assets/img/portfolio/brothers.jpg
 order: 500
 ---

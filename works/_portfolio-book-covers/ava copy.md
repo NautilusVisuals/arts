@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/portfolio/wicked.png
+    - /assets/img/portfolio/wicked.jpg
 order: 590
 ---

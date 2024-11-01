@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/portfolio/tideoffire.png
+    - /assets/img/portfolio/tideoffire.jpg
 order: 590
 ---

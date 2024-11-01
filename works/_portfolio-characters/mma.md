@@ -4,6 +4,6 @@ description:
 price: 
 category: Available for all.
 images: 
-    - /assets/img/portfolio/mma.png
+    - /assets/img/portfolio/mma.jpg
 order: 500
 ---

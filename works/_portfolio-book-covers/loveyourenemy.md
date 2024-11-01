@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/portfolio/loveyourenemy.png
+    - /assets/img/portfolio/loveyourenemy.jpg
 order: 590
 ---

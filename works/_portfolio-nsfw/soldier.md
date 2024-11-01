@@ -3,5 +3,5 @@ title: Soldier
 description:
 category: 
 images: 
-    - /assets/img/portfolio/soldier.png
+    - /assets/img/portfolio/soldier.jpg
 ---
