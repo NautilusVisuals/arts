@@ -1,7 +1,7 @@
 ---
-title: 
+title: Librarian
 description:
-category: 
-images: 
+category: NSFW
+images: librarian.png
     - /assets/img/nsfw1.png
 ---
