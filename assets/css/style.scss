@@ -596,7 +596,7 @@ html, body {
 	border: solid 1px #ddd;
 }
 .gray-bg {
-	background-color: #333;
+	background-color: #0f172a;
 }
 .mb-10 {
 	margin-bottom: 10px;
@@ -1417,5 +1417,23 @@ html, body {
 .section-portfolio-item {
 	.img-res {
 		object-fit: contain;	
+	}
+}
+
+
+#main.site-main .section-services {
+	.panel {
+		background-color: #020617;
+		border-color: #020617;
+	
+		.list-group-item {
+			background-color: transparent;
+			border-color: #0f172a;
+		}
+	}
+	
+	.panel-heading, .panel-footer {
+		background-color: #0f172a;
+		border-color: #0f172a;
 	}
 }
