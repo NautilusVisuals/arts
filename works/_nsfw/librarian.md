@@ -4,5 +4,5 @@ description:
 category: NSFW
 price: 75
 images: 
-    - /assets/img/available/librarian.png
+    - /assets/img/available/librarian.jpg
 ---
