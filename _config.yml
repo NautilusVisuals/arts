@@ -29,5 +29,25 @@ defaults:
       layout: "portfolio-item"
   - scope:
       path: ""
+      type: "nsfw"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "portfolio-book-covers"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "portfolio-characters"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "portfolio-nsfw"
+    values:
+      layout: "portfolio-item"  
+  - scope:
+      path: ""
     values:
       layout: "default"
