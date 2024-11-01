@@ -4,6 +4,6 @@ description:
 price: "SOLD"
 category: 
 images: 
-    - /assets/img/angeldevil.png
+    - /assets/img/gabrielpriest.png
 order: 590
 ---
