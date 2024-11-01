@@ -617,9 +617,9 @@ html, body {
 .site-title {
 	font-size: 18px;
 	line-height: 26px;
-	color: #26272d;
+	color: #f2f2f2;
 	&:hover {
-		color: #26272d;
+		color: #f2f2f2;
 	}
 	span {
 		font-weight: 700;
@@ -976,7 +976,7 @@ html, body {
 	}
 }
 .site-footer {
-	background-color: #f5f5f8;
+	background-color: #0f172a;
 	padding-top: 95px;
 	.site-title {
 		display: inline-block;
@@ -1031,7 +1031,7 @@ html, body {
 }
 .list-unstyled li a:hover,
 .list-unstyled li.active a {
-	color: #020616;
+	color: white;
 }
 .copyright {
 	padding: 30px 0;
