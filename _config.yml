@@ -1,9 +1,17 @@
 collections_dir: works
 
 collections:
-  premades:
+  book-covers:
     output: true
   characters:
+    output: true
+  nsfw:
+    output: true
+  portfolio-book-covers:
+    output: true
+  portfolio-characters:
+    output: true
+  portfolio-nsfw:
     output: true
   customs:
   addons:
@@ -11,7 +19,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "premades"
+      type: "book-covers"
     values:
       layout: "portfolio-item"
   - scope:
