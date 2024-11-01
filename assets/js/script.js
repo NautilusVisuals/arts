@@ -67,12 +67,12 @@ $(function () {
         setupFilters();
       }, 100);
 
-      $("#grid .col-md-4").slice(0, 4).show();
+      $("#grid .col-md-4").slice(0, 8).show();
 
       $("#loadMore").on('click', function(e) {
         e.preventDefault();
         $("#grid .col-md-4:hidden")
-          .slice(0, 4)
+          .slice(0, 8)
           .fadeIn()
           .each(function() {
             $grid.shuffle('appended', $(this));
