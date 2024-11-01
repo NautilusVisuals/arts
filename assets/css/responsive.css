@@ -265,7 +265,7 @@
 		transition: all 0.3s;
 	}
 
-	.slicknav_collapsed {
+	.slicknav_collapsed .slicknav_icon-bar {
 		background-color: #f2f2f2;
 	}
 
