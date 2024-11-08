@@ -2,8 +2,9 @@
 layout: default
 ---
 
-{% assign price = page.price | downcase %}
+{% assign price = page.price %}
 {% assign sold = "sold" %}
+{% assign isSold = (price | downcase) == sold or price == "" %}
 
 <section class="site-section subpage-site-section section-portfolio-item">
     <div class="container">
@@ -24,12 +25,12 @@ layout: default
 
                     <div class="project-date-category">
                         <p><span>Category:</span> {{ page.category }}</p>
-                        {% if price != sold and price != "" and price > 0 %}
-                            <p><span>Price:</span> <span class="product-price-">${{ page.price }}</span></p>
+                        {% if !isSold %}
+                            <p><span>Price:</span> <span class="product-price-">${{ page.price | round: 2 }}</span></p>
                         {% endif %}
                     </div><!-- /.project-cat -->
 
-                    {% if price != sold and price != "" and price > 0 %}
+                    {% if !isSold %}
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                         <input type="hidden" name="cmd" value="_xclick">
                         <input type="hidden" name="business" value="creative@nyxvisuals.com">
