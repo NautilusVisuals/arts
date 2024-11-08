@@ -13,8 +13,8 @@ collections:
     output: true
   portfolio-nsfw:
     output: true
-  customs:
-  addons:
+#  customs:
+#  addons:
      
 defaults:
   - scope:
