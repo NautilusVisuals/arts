@@ -2,7 +2,7 @@
 title: Dicktator
 description: 
 category: NSFW
-price: 80
+price: SOLD
 images: 
     - /assets/img/available/dicktator.jpg
 ---
