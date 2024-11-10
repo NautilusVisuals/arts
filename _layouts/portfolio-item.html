@@ -10,7 +10,9 @@ layout: default
             <div class="col-md-8">
                 {% for image in page.images %}
                 <div class="project-img">
-                    <img src="{{ image }}" class="img-res" alt="">
+                    <a href="{{ image }}" target="_blank">
+                        <img src="{{ image }}" class="img-res" alt="">
+                    </a>
                 </div><!-- /.project-img -->
                 {% endfor %}
 
