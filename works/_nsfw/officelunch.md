@@ -2,7 +2,7 @@
 title: Office Lunch
 description: Big plans for lunch? 
 category: NSFW
-price: 80
+price: 
 images: 
     - /assets/img/available/eater.jpg
 ---
