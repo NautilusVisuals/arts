@@ -6,7 +6,7 @@ layout: default
 
 <section class="site-section subpage-site-section section-portfolio-item">
     <div class="container">
-        <div class="row">
+        <div class="row" style="position: relative;">
             <div class="col-md-8">
                 {% for image in page.images %}
                 <div class="project-img">
@@ -17,7 +17,7 @@ layout: default
                 {% endfor %}
 
             </div>
-            <aside class="col-md-4">
+            <aside class="col-md-4" style="margin-top: 20px; position: sticky; top: 0;">
                 <div class="project-info">
                     <h5>Description</h5>
 
