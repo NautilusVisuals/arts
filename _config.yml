@@ -34,6 +34,11 @@ defaults:
       layout: "portfolio-item"
   - scope:
       path: ""
+      type: "packages"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
       type: "portfolio-book-covers"
     values:
       layout: "portfolio-item"
@@ -46,7 +51,12 @@ defaults:
       path: ""
       type: "portfolio-nsfw"
     values:
-      layout: "portfolio-item"  
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "portfolio-packages"
+    values:
+      layout: "portfolio-item"
   - scope:
       path: ""
     values:
