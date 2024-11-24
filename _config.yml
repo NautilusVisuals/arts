@@ -5,11 +5,15 @@ collections:
     output: true
   characters:
     output: true
+  packages:
+    output: true
   nsfw:
     output: true
   portfolio-book-covers:
     output: true
   portfolio-characters:
+    output: true
+  portfolio-packages:
     output: true
   portfolio-nsfw:
     output: true
