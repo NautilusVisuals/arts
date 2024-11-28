@@ -4,6 +4,6 @@ description: Mirror, mirror, on the wall, who can fuck up them all? - Asked Prin
 price: 80.00
 category: Available for all.
 images: 
-    - /assets/img/available/mirror.jpg
+    - /assets/img/available/miror.jpg
 order: 500
 ---
