@@ -1,0 +1,47 @@
+name: Mark sold
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  update-issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        
+      - name: Update Issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_NUMBER=${{ github.event.issue.number }}
+          ISSUE_TITLE=${{ github.event.issue.title }}
+          ISSUE_BODY=${{ github.event.issue.body }}
+        
+          # Check if the title contains the word "Sale"
+          if [[ "$ISSUE_TITLE" == *"Sale"* ]]; then
+            echo "Closing issue #${ISSUE_NUMBER} because the title contains 'Sale'."
+          
+            # Close the issue
+            curl -X PATCH \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${{ github.repository }}/issues/${ISSUE_NUMBER} \
+              -d '{"state": "closed"}'
+          
+            # Mark file as sold
+            file="works/_${ISSUE_BODY:1}.md"
+            sed -E -i "s/^\s?price:\s?.+$/price\:/m" "$file"
+          
+            # Commit and push the changes
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add "$file"
+            git commit -m "Update file after closing issue #${ISSUE_NUMBER}"
+            git push origin HEAD:${{ github.ref }}
+          else
+            echo "Issue #${ISSUE_NUMBER} will remain open."
+          fi
+          
