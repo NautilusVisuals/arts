@@ -1,5 +1,6 @@
 #!/bin/bash
 
-file=$(grep "title: $1" works -rl)
 
-echo $file
+file="works/_${1:1}.md"
+
+sed -E -i "s/^\s?price:\s?.+$/price\: 0/m" "$file"
