@@ -16,6 +16,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          ISSUE_NUMBER=${{ github.event.issue.number }}
+          ISSUE_TITLE=${{ github.event.issue.title }}
+          ISSUE_BODY=${{ github.event.issue.body }}
+        
           # Check if the title contains the word "Sale"
           if [[ "$ISSUE_TITLE" == *"Sale"* ]]; then
             echo "Closing issue #${ISSUE_NUMBER} because the title contains 'Sale'."
@@ -28,7 +32,7 @@ jobs:
               -d '{"state": "closed"}'
           
             # Mark file as sold
-            file="works/_${1:1}.md"
+            file="works/_${ISSUE_BODY:1}.md"
             sed -E -i "s/^\s?price:\s?.+$/price\: 0/m" "$file"
           
             # Commit and push the changes
