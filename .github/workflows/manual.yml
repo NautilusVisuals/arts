@@ -33,7 +33,7 @@ jobs:
           
             # Mark file as sold
             file="works/_${ISSUE_BODY:1}.md"
-            sed -E -i "s/^\s?price:\s?.+$/price\: 0/m" "$file"
+            sed -E -i "s/^\s?price:\s?.+$/price\:/m" "$file"
           
             # Commit and push the changes
             git config --local user.email "action@github.com"
