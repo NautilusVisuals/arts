@@ -26,7 +26,7 @@ layout: default
                     <div class="project-date-category">
                         <p><span>Category:</span> {{ page.category }}</p>
                         {% if price %}
-                            <p><span>Price:</span> <span class="product-price-">${{ page.price | round: 2 }}</span></p>
+                            <p><span>Price:</span> <span class="product-price-">${{ page.price | round: 2 | sprintf: '%.2f' }}</span></p>
                         {% endif %}
                     </div><!-- /.project-cat -->
 
