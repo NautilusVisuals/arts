@@ -26,7 +26,11 @@ layout: default
                     <div class="project-date-category">
                         <p><span>Category:</span> {{ page.category }}</p>
                         {% if price %}
-                            <p><span>Price:</span> <span class="product-price-">${{ page.price | round: 2 }}</span></p>
+                            {% assign price_split = price | round: 2 | split: "." %}
+                            {% assign integral = price_split[0] %}
+                            {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+                            {% assign formatted_price = integral | append: "." | append: fractional %}
+                            <p><span>Price:</span> <span class="product-price-">${{ formatted_price }}</span></p>
                         {% endif %}
                     </div><!-- /.project-cat -->
 
@@ -35,7 +39,8 @@ layout: default
                         <input type="hidden" name="cmd" value="_xclick">
                         <input type="hidden" name="business" value="creative@nyxvisuals.com">
                         <input type="hidden" name="lc" value="US">
-                        <input type="hidden" name="item_name" value="{{ page.id }}"> 
+                        <input type="hidden" name="item_name" value="{{ page.title }}"> 
+                        <input type="hidden" name="item_number" value="{{ page.id }}"> 
                         <input type="hidden" name="amount" value="{{ page.price }}">
                         <input type="hidden" name="currency_code" value="USD">
                         <input type="hidden" name="button_subtype" value="services">
