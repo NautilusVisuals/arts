@@ -1,7 +1,7 @@
 ---
 title: Sci-fi prisoner
 description:
-price: 80.00
+price: 55.00
 category: Available for all.
 images: 
     - /assets/img/available/prisoner.jpg
