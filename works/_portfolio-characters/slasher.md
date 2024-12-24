@@ -1,7 +1,7 @@
 ---
 title: Slasher
 description: 
-price: 55.00
+price:
 category: Available for all.
 images: 
     - /assets/img/available/skull2.jpg
