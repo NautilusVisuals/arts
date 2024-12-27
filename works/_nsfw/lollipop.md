@@ -2,7 +2,7 @@
 title: Lollipop
 description:
 category: NSFW
-price: 55
+price: 80
 images: 
     - /assets/img/available/bjtwo.jpg
 ---

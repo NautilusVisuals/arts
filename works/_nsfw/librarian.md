@@ -2,7 +2,7 @@
 title: Librarian
 description:
 category: NSFW
-price: 55
+price: 80
 images: 
     - /assets/img/available/librarian.jpg
 ---

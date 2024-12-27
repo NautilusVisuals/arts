@@ -1,7 +1,7 @@
 ---
 title: Fairy
 description: 
-price: 55.00
+price: 80.00
 category: Available for all.
 images: 
     - /assets/img/available/fairy.jpg

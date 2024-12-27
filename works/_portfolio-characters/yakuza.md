@@ -1,7 +1,7 @@
 ---
 title: Yakuza
 description: 
-price: 55.00
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/yakuza1.jpg
