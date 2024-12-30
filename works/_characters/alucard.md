@@ -4,6 +4,6 @@ description: Alucard, half-human, half-vampire, wields his cursed bloodline and 
 price: 80.00
 category: Available for all.
 images: 
-    - /assets/img/available/manandhorse.jpg
+    - /assets/img/available/alucard.jpg
 order: 500
 ---
