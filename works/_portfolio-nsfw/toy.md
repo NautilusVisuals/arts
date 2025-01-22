@@ -2,7 +2,7 @@
 title: Toy
 description:
 category: NSFW
-price: 81
+price: 
 images: 
     - /assets/img/available/slave.jpg
 ---
