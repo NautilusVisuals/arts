@@ -1,9 +1,9 @@
 ---
-title: Alucard
-description: Alucard, half-human, half-vampire, wields his cursed bloodline and mortal heart in a relentless fight to protect humanity from eternal night...and himself.
+title: Owl
+description: In a world destined to burn, I will stand with the fire-tame it, and from its scorched remains, forge life anew.
 price: 80.00
 category: Available for all.
 images: 
-    - /assets/img/available/alucard.jpg
-order: 500
+    - /assets/img/available/owl.jpg
+order: 5000
 ---
