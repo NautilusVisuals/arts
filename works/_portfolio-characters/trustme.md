@@ -1,10 +1,9 @@
 ---
 title: Trust me
-description: She’s wrapped in his sweater, his scent clinging to her. “Trust me,” he says softly, his eyes never leaving hers.
+description: Don't be scared, love. I am not the one to be scared of. You know I will get away with it...
 price: 
 category: Available for all.
 images: 
-    - /assets/img/available/justacouple1.jpg
-    - /assets/img/available/justacouple.jpg
-order: 500
+    - /assets/img/available/dontletgo.jpg
+order: 5000
 ---
