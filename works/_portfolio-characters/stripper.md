@@ -1,7 +1,7 @@
 ---
 title: Stripper
 description: 
-price: 50.00
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/stripper.jpg
