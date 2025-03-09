@@ -1,5 +1,5 @@
 ---
-title: OwlVacation dada
+title: Vacation dada
 description: 
 price: 80.00
 category: Available for all.
