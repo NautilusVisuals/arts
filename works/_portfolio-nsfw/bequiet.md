@@ -2,7 +2,7 @@
 title: Shh...be quiet...
 description:
 category: NSFW
-price: 80
+price: 
 images: 
     - /assets/img/available/bequiet.jpg
 ---
