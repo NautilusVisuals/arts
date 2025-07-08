@@ -1,9 +1,9 @@
 ---
 title: Demonia
-description:
-price: 
+description: .
+price: 80.00
 category: Available for all.
 images: 
-    - /assets/img/available/demonia.jpg
-order: 500
+    - /assets/img/available/goddess.jpg
+order: 5000
 ---
