@@ -1,7 +1,7 @@
 ---
 title: Power
 description: Where style meets substance.
-price: 45.00
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/midnight.jpg
