@@ -1,9 +1,8 @@
 ---
-title: Pleasure for three
-description: Want to have a good time, princess? 
+title: Threesome
+description:
+category: NSFW
 price: 
-category: Available for all.
 images: 
-    - /assets/img/available/threesome.jpg
-order: 500
+    - /assets/img/available/threesomevol2.jpg
 ---
