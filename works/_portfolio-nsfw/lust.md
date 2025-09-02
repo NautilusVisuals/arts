@@ -1,7 +1,7 @@
 ---
 title: Lust
 description: 
-price: 80
+price: 
 category: NSFW
 images: 
     - /assets/img/available/lust.jpg
