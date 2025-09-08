@@ -1,7 +1,7 @@
 ---
 title: Duo
 description: 
-price: 45.00
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/duo.jpg

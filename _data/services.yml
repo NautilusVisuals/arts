@@ -1,6 +1,6 @@
 packages:
   - name: Budget Package
-    price: 99
+    price: 100
     items:
       - eBook cover
       - Paperback / Hardback cover
@@ -9,7 +9,7 @@ packages:
       - 3D Mockups of book cover
 
   - name: Standard Package
-    price: 149
+    price: 150
     items:
       - eBook cover
       - Paperback / Hardback cover
@@ -20,7 +20,7 @@ packages:
       - Social media banner
 
   - name: Premium Package
-    price: 199
+    price: 200
     items:
       - eBook cover
       - Paperback / Hardback cover
