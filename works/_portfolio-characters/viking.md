@@ -1,7 +1,7 @@
 ---
 title: Viking
 description: .
-price: 95.00
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/viking1.jpg
