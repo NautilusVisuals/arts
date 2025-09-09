@@ -86,7 +86,7 @@ h1,h2,h3,h4,h5 {
 	color: #fff;
 }
 .btn-gray {
-	background-color: #0f172a;
+	background-color: #1d2424;
 	color: #f3f3f3;
 }
 .btn-green {
@@ -582,7 +582,7 @@ html, body {
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	color: #f2f2f2;
-	background-color: #020617;
+	background-color: #0d0600;
 }
 .img-res {
 	display: block;
@@ -594,7 +594,7 @@ html, body {
 //	object-fit: contain;
 //	background: url(../img/hero.jpg) no-repeat center/cover;
 	background: black;
-	border: solid 1px #0f172a;
+	border: solid 1px #1d2424;
 }
 .gray-bg {
 	background-color: #1e293b;
@@ -618,9 +618,9 @@ html, body {
 .site-title {
 	font-size: 18px;
 	line-height: 26px;
-	color: #020617;
+	color: #0d0600;
 	&:hover {
-		color: #020617;
+		color: #0d0600;
 	}
 	span {
 		font-weight: 700;
@@ -668,7 +668,7 @@ html, body {
 	padding: 0;
 	font-size: 16px;
 	position: relative;
-	color: #020617;
+	color: #0d0600;
 	line-height: 26px;
 }
 .site-header-white .navbar-nav > li > a,
@@ -905,7 +905,7 @@ html, body {
 		top: 0;
 		right: 100%;
 		bottom: 0;
-		background-color: #0f172a;
+		background-color: #1d2424;
 		transition: right 0.25s ease-in-out;
 		-moz-transition: right 0.25s ease-in-out;
 		-webkit-transition: right 0.25s ease-in-out;
@@ -935,7 +935,7 @@ html, body {
 		border: 1px solid #f2f2f2;
 		border-radius: 50px;
 		&:hover {
-			background-color: #0f172a;
+			background-color: #1d2424;
 			color: #fff;
 		}
 		i {
@@ -977,7 +977,7 @@ html, body {
 	}
 }
 .site-footer {
-	background-color: #0f172a;
+	background-color: #1d2424;
 	padding-top: 95px;
 	.site-title {
 		color: white;
@@ -1103,7 +1103,7 @@ html, body {
 #loadMore {
 	margin-top: 30px;
 	&.disabled {
-		background-color: #0f172a;
+		background-color: #1d2424;
 		color: #f3f3f3;
 		opacity: 0.3;
 	}
@@ -1426,18 +1426,18 @@ html, body {
 
 #main.site-main .section-services {
 	.panel {
-		background-color: #020617;
-		border-color: #020617;
+		background-color: #0d0600;
+		border-color: #0d0600;
 	
 		.list-group-item {
 			background-color: transparent;
-			border-color: #0f172a;
+			border-color: #1d2424;
 		}
 	}
 	
 	.panel-heading, .panel-footer {
-		background-color: #0f172a;
-		border-color: #0f172a;
+		background-color: #1d2424;
+		border-color: #1d2424;
 	}
 }
 
