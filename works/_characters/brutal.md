@@ -1,7 +1,7 @@
 ---
 title: Brutal
 description: 
-price: 80.00
+price: 95.00
 category: Available for all.
 images: 
     - /assets/img/available/brutal1.jpg
