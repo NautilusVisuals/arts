@@ -4,6 +4,6 @@ description: You think you can break me, little one?
 price: 
 category: Available for all.
 images: 
-    - /assets/img/available/clown.jpg
+    - /assets/img/available/clown2.jpg
 order: 52300
 ---
