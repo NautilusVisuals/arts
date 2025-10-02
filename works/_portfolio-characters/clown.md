@@ -1,9 +1,10 @@
 ---
-title: Clown
-description: You think you can break me, little one?
+title: Clown Two images
+description: 
 price: 
 category: Available for all.
 images: 
-    - /assets/img/available/clown2.jpg
-order: 52300
+    - /assets/img/available/clown.jpg
+    - /assets/img/available/clown1.jpg
+order: 99999
 ---
