@@ -4,10 +4,10 @@ description: A package that is full with inspiration for all MM authors, who wan
 category: Packages
 price: 220
 images: 
-    - /assets/img/available/hurt.jpg
     - /assets/img/available/hurt1.jpg
     - /assets/img/available/hurt2.jpg
     - /assets/img/available/hurt3.jpg
+    - /assets/img/available/hurt4.jpg
     
     
 ---
