@@ -2,7 +2,7 @@
 title: flex
 description: A few character cards, for a head start of a story
 category: Packages
-price: 189
+price: 
 images: 
     - /assets/img/available/flex1.jpg
     - /assets/img/available/flex2.jpg
