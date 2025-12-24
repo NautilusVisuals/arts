@@ -2,7 +2,7 @@
 title: Good girl
 description:
 category: NSFW
-price: 100
+price: 
 images: 
     - /assets/img/available/goodgirl.jpg
 ---
