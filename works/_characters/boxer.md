@@ -1,9 +1,9 @@
 ---
-title: King of rats
+title: Boxer
 description: 
-price: 50.00
+price: 70.00
 category: Available for all.
 images: 
-    - /assets/img/available/ratking.jpg
+    - /assets/img/available/boxer.jpg
 order: 54500
 ---
