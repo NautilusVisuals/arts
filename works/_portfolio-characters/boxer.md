@@ -1,7 +1,7 @@
 ---
 title: Boxer
 description: 
-price: 70.00
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/boxer.jpg
