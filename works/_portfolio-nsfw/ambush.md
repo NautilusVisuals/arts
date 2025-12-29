@@ -2,7 +2,7 @@
 title: Ambush
 description:
 category: NSFW
-price: 70
+price: 
 images: 
     - /assets/img/available/ambush.jpg
 ---
