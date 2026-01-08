@@ -1,7 +1,7 @@
 ---
 title: Enemies
 description: 
-price: 100.00
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/enemies.jpg
