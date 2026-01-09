@@ -7,6 +7,4 @@ price:  180
     - /assets/img/available/chaseme.jpg
     - /assets/img/available/breakme.jpg
     - /assets/img/available/series.jpg
-    
-    
----
+    ---
