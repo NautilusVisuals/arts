@@ -2,7 +2,7 @@
 title: Book series
 description: 
 category: Packages
-price:  180
+price:  
 images:
     - /assets/img/available/saveme.jpg
     - /assets/img/available/chaseme.jpg
