@@ -9,6 +9,8 @@ collections:
     output: true
   nsfw:
     output: true
+  illustration:
+    output: true
   portfolio-book-covers:
     output: true
   portfolio-characters:
@@ -16,6 +18,8 @@ collections:
   portfolio-packages:
     output: true
   portfolio-nsfw:
+    output: true
+  portfolio-illustration:
     output: true
 #  customs:
 #  addons:
@@ -34,6 +38,11 @@ defaults:
   - scope:
       path: ""
       type: "nsfw"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "illustration"
     values:
       layout: "portfolio-item"
   - scope:
@@ -59,6 +68,11 @@ defaults:
   - scope:
       path: ""
       type: "portfolio-packages"
+    values:
+      layout: "portfolio-item"
+  - scope:
+      path: ""
+      type: "portfolio-illustration"
     values:
       layout: "portfolio-item"
   - scope:
