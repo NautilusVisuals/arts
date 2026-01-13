@@ -2,7 +2,7 @@
 title: Girly time
 description:
 category: NSFW
-price: 90
+price: 
 images: 
     - /assets/img/available/tied.jpg
 ---
