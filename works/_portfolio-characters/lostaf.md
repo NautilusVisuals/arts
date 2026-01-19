@@ -1,7 +1,7 @@
 ---
 title: Lost AF
 description: 
-price: 135
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/lostaf2.jpg
