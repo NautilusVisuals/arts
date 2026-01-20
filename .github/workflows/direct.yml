@@ -1,0 +1,33 @@
+name: Mark sold (direct)
+
+on:
+  workflow_dispatch:
+    inputs:
+      work:
+        description: 'id'
+        required: true
+        type: string
+
+jobs:
+  update-work:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+        
+      - name: Update
+        run: |
+          # Mark file as sold
+          file="works/_${{ github.event.inputs.work }}.md"
+          sed -E -i "s/^\s?price:\s?.+$/price\:/m" "$file"
+        
+          # Commit and push the changes
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add "$file"
+          git commit -m "Update file $file after sale"
+          # git push # origin HEAD:${{ github.ref }}
+          git push origin HEAD:main
