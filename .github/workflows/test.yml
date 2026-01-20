@@ -18,7 +18,7 @@ jobs:
         
       - name: Update
         run: |
-          file="works/_${ISSUE_BODY:1}.md"
+          file="works/_${{ github.event.inputs.work }}.md"
           echo File is $file
 
           cat $file
