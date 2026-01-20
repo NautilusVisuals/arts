@@ -1,7 +1,7 @@
 ---
 title: Mommy
 description: 
-price: 90
+price:
 category: Available for all.
 images: 
     - /assets/img/available/mommy.jpg
