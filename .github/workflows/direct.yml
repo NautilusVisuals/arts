@@ -27,4 +27,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add "$file"
           git commit -m "Update file $file after sale"
-          git push # origin HEAD:${{ github.ref }}
+          # git push # origin HEAD:${{ github.ref }}
+          git push origin HEAD:main
