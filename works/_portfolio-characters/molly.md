@@ -1,7 +1,7 @@
 ---
 title: Molly
 description: .
-price: 135
+price: 
 category: Available for all.
 images: 
     - /assets/img/available/molly.jpg
