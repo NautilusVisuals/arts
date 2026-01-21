@@ -61,16 +61,16 @@ other:
   - name: NSFW
     items:
       - name: Two characters
-        price: 149
+        price: 150
       - name: Three characters
-        price: 199
+        price: 200
       - name: four characters
-        price: 249
+        price: 250
   - name: NSFW
     items:
       - name: Male single
-        price: 99
+        price: 100
       - name: Female single
-        price: 99
+        price: 100
       - name: Creatures
-        price: 129
+        price: 130
