@@ -1,7 +1,7 @@
 ---
 title: Try me
 description: 
-price: 45.00
+price:
 category: Available for all.
 images: 
     - /assets/img/available/tryme.jpg
