@@ -2,7 +2,7 @@
 title: High night
 description:
 category: NSFW
-price: 
+price:
 images: 
     - /assets/img/available/car.jpg
 ---
