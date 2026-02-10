@@ -2,7 +2,7 @@
 title: Stay still
 description:
 category: NSFW
-price: 70
+price:
 images: 
     - /assets/img/available/staystill.jpg
 ---
