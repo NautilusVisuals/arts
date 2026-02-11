@@ -1,7 +1,7 @@
 ---
 title: Skull
 description: .
-price: 90.00
+price:
 category: Available for all.
 images: 
     - /assets/img/available/skull.jpg
