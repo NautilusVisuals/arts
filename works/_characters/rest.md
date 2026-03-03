@@ -1,7 +1,7 @@
 ---
 title: rest
 description: .
-price: 60.00
+price:
 category: Available for all.
 images: 
     - /assets/img/available/rest.jpg
