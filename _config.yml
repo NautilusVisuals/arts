@@ -42,7 +42,7 @@ defaults:
       layout: "portfolio-item"
   - scope:
       path: ""
-      type: "illustration"
+      type: "specials"
     values:
       layout: "portfolio-item"
   - scope:
@@ -72,7 +72,7 @@ defaults:
       layout: "portfolio-item"
   - scope:
       path: ""
-      type: "portfolio-illustration"
+      type: "portfolio-specials"
     values:
       layout: "portfolio-item"
   - scope:
