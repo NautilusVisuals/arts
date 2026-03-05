@@ -9,7 +9,7 @@ collections:
     output: true
   nsfw:
     output: true
-  illustration:
+  specials:
     output: true
   portfolio-book-covers:
     output: true
@@ -19,7 +19,7 @@ collections:
     output: true
   portfolio-nsfw:
     output: true
-  portfolio-illustration:
+  portfolio-specials:
     output: true
 #  customs:
 #  addons:
