@@ -1,9 +1,9 @@
 ---
-title: Alone
-description: .
-price: 90.00
+title: Spring Special
+description: . Includes two custom NSFW artworks and two custom SFW artworks. Upon purchase please message me for a booking date. 
+price: 350
 category: Available for all.
 images: 
-    - /assets/img/available/alone.jpg
+    - /assets/img/available/spring.jpg
 order: 929389
 ---
