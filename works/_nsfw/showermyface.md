@@ -4,6 +4,6 @@ description: .
 price: 90
 category: Available for all.
 images: 
-    - /assets/img/available/showermyface.jpg
+    - /assets/img/available/showermylips.jpg
 order: 929389
 ---
