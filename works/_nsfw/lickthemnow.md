@@ -1,7 +1,7 @@
 ---
 title: Lick them now
-description: 90
-price:
+description: 
+price: 90
 category: Available for all.
 images: 
     - /assets/img/available/lickthemnow.jpg
