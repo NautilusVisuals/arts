@@ -1,7 +1,7 @@
 ---
 title: Open wide 2 images
 description: .
-price: 90.00
+price:
 category: Available for all.
 images: 
     - /assets/img/available/openbig.jpg
