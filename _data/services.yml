@@ -14,7 +14,7 @@ packages:
       - 4+ Characters $280
 
   - name: Book cover addons
-    price: 200
+    price: 15
     items:
       - Paperback / Hardback cover $45
       - Typography title $15
