@@ -24,14 +24,14 @@ title: Index
                     {% for package in site.data.services.packages %}
 
                         {% if forloop.first %}
-                            {% assign offset = "col-lg-offset-0 col-sm-3" %}
+                            {% assign offset = "col-lg-offset-0 col-sm-4" %}
                         {% elsif forloop.last %}
-                            {% assign offset = "col-lg-offset-0 col-sm-offset-0 col-sm-3" %}
+                            {% assign offset = "col-lg-offset-0 col-sm-offset-0 col-sm-4" %}
                         {% else %}
-                            {% assign offset = "col-sm-3" %}
+                            {% assign offset = "col-sm-4" %}
                         {% endif %}
 
-                        <div class="{{ offset }} col-lg-3 text-center">
+                        <div class="{{ offset }} col-lg-4 text-center">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h3>{{ package.name }}</h3>
