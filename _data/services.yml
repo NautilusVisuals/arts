@@ -1,5 +1,5 @@
 packages:
-  - name: Budget Package
+  - name: Character design
     price: 100
     items:
       - eBook cover
