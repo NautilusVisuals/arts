@@ -1,76 +1,29 @@
 packages:
+<<<<<<< HEAD
   - name: Character design
     price: 100
+=======
+  - name: Character Design
+    price: 120
+>>>>>>> 773a91982898a45ed38b8eba3642110c493fe051
     items:
-      - eBook cover
-      - Paperback / Hardback cover
-      - Artwork without title
-      - PNG typography title
-      - 3D Mockups of book cover
+      - Half body character $120
+      - Full body character $160
 
-  - name: Standard Package
-    price: 150
+  - name: NSFW
+    price: 140
     items:
-      - eBook cover
-      - Paperback / Hardback cover
-      - Artwork without title
-      - PNG typography title
-      - 3D Mockups of book cover
-      - Bookmark
-      - Social media banner
+      - 1 Character $140
+      - 2 Characters $200
+      - 3 Characters $250
+      - 4+ Characters $280
 
-  - name: Premium Package
-    price: 200
+  - name: Book cover addons
+    price: 15
     items:
-      - eBook cover
-      - Paperback / Hardback cover
-      - Artwork without title
-      - PNG typography title
-      - 3D Mockups of book cover
-      - Bookmark
-      - Social media banner
-      - 1 Character
-
-  - name: Exclusive Package
-    price: 279
-    items:
-      - eBook cover
-      - Paperback / Hardback cover
-      - Artwork without title
-      - PNG typography title
-      - 3D Mockups of book cover
-      - Bookmark
-      - Social media banner
-      - 2 Characters
-      - IG promo
-
+      - Paperback / Hardback cover $45
+      - Typography title $15
+      - 3D Mockups of book cover $15
+      - Bookmark $45
 
 other:
-  - name: Character Design
-    items:
-      - name: Half body character
-        price: 59
-      - name: Full body character
-        price: 99
-  - name: Packages
-    items:
-      - name: Ten characters half body
-        price: 479
-      - name: Ten characters full body
-        price: 699
-  - name: NSFW
-    items:
-      - name: Two characters
-        price: 150
-      - name: Three characters
-        price: 200
-      - name: four characters
-        price: 250
-  - name: NSFW
-    items:
-      - name: Male single
-        price: 100
-      - name: Female single
-        price: 100
-      - name: Creatures
-        price: 130
