@@ -1,7 +1,7 @@
 ---
 title: Togheter
 description: .
-price: 90
+price:
 category: Available for all.
 images: 
     - /assets/img/available/togheter.jpg
