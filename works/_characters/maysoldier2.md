@@ -1,7 +1,7 @@
 ---
 title: Soldier 
 description: .
-price: 90
+price:
 category: Available for all.
 images: 
     - /assets/img/available/maysoldier2.jpg
