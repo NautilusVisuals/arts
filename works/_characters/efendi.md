@@ -1,7 +1,7 @@
 ---
 title: Kaan efendi
 description: .
-price: 50
+price:
 category: Available for all.
 images: 
     - /assets/img/available/efendi.jpg

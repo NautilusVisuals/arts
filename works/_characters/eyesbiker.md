@@ -1,7 +1,7 @@
 ---
 title: Eyes - Two images
 description: .
-price: 50
+price:
 category: Available for all.
 images: 
     - /assets/img/available/eyes2.jpg
