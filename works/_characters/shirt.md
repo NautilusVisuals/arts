@@ -1,7 +1,7 @@
 ---
 title: Shirt
 description: .
-price: 90
+price: 50
 category: Available for all.
 images: 
     - /assets/img/available/shirt.jpg
