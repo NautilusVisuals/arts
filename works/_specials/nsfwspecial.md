@@ -4,6 +4,6 @@ description: . Includes 5 NSFW images with two characters, and 2 NSFW images wit
 price: 800
 category: Available for all.
 images: 
-    - /assets/img/available/nsfw.jpg
+    - /assets/img/available/nsfww.jpg
 order: 2
 ---
