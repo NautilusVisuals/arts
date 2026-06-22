@@ -1,6 +1,6 @@
 ---
 title: The Fallen 
-description: Includes e-Book, Paperback, Title change, 3D Mock-up for promotion.
+description: Includes e-Book, Title change, 3D Mock-up for promotion. Additional taxe for paperback/hardback add-on - $45.
 price: 189
 category: Available for all.
 images: 
