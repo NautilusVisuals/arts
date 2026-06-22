@@ -1,7 +1,7 @@
 ---
 title: In the bath
 description: .
-price: 90
+price:
 category: Available for all.
 images: 
     - /assets/img/available/inthebath.jpg
