@@ -1,7 +1,7 @@
 ---
 title: enduro
 description: .
-price:
+price: 90
 category: Available for all.
 images: 
     - /assets/img/available/enduro.jpg
