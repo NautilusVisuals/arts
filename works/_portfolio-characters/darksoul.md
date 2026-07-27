@@ -4,6 +4,6 @@ description: .
 price:
 category: Available for all.
 images: 
-    - /assets/img/available/darksoul.jpg
-order: 29
+    - /assets/img/available/enduro.jpg
+order: 30
 ---
