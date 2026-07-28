@@ -1,7 +1,7 @@
 ---
 title: Kissies
 description: .
-price: 90
+price:
 category: Available for all.
 images: 
     - /assets/img/available/kissies.jpg
