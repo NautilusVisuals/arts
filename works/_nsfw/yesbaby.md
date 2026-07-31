@@ -1,7 +1,7 @@
 ---
 title: Yes baby
 description: .
-price: 90
+price:
 category: Available for all.
 images: 
     - /assets/img/available/yesbaby.jpg
