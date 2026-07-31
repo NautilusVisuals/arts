@@ -1,7 +1,7 @@
 ---
 title: You will have to trust me 2 images
 description: 
-price: 120
+price:
 category: Available for all.
 images: 
     - /assets/img/available/youwillhavetotrustme1.jpg
