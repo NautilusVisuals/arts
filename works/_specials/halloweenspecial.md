@@ -4,6 +4,6 @@ description: . Includes two custom NSFW artworks and two custom SFW artworks. Up
 price: 350
 category: Available for all.
 images: 
-    - /assets/img/available/halloween.jpg
+    - /assets/img/available/halloweenspecial.jpg
 order: 4
 ---
