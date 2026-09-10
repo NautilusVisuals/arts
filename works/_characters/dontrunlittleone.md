@@ -1,7 +1,7 @@
 ---
 title: Dont run
 description: .
-price:
+price: 90
 category: Available for all.
 images: 
     - /assets/img/available/dontrunlittleone.jpg
