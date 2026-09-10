@@ -1,7 +1,7 @@
 ---
 title: BoyToy
 description: .
-price: 50
+price:
 category: Available for all.
 images: 
     - /assets/img/available/boytoy.jpg
