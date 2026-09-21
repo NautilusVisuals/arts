@@ -1,7 +1,7 @@
 ---
 title: Play Time TWO images
 description: 
-price: 120
+price:
 category: Available for all.
 images: 
     - /assets/img/available/playtime1.jpg
