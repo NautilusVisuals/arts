@@ -1,7 +1,7 @@
 ---
 title: Hex
 description: .
-price: 45
+price:
 category: Available for all.
 images: 
     - /assets/img/available/hex.jpg
