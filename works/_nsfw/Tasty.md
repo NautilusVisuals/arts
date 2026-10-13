@@ -2,7 +2,7 @@
 title: Tasty
 description:
 category: NSFW
-price: 90
+price: 45
 images: 
     - /assets/img/available/relaxforme.jpg
 ---
