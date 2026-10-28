@@ -1,7 +1,7 @@
 ---
 title: Waterfall
 description: .
-price: 45
+price:
 category: Available for all.
 images: 
     - /assets/img/available/waterfall.jpg
