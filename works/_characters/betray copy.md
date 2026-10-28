@@ -1,7 +1,7 @@
 ---
 title: My little Sinner
 description: .
-price: 90
+price:
 category: Available for all.
 images: 
     - /assets/img/available/mylittlesinner.jpg
