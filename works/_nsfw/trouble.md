@@ -1,7 +1,7 @@
 ---
 title: Trouble
 description: .
-price: 120
+price: 90
 category: Available for all.
 images: 
     - /assets/img/available/bondi.jpg
